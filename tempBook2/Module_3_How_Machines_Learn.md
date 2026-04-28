@@ -81,7 +81,7 @@ While _learning paradigms_ define **what kind of information** the machine recei
 
 Modern AI systems increasingly rely on **distributed**, **hybrid**, and **multimodal** approaches — extending machine learning beyond isolated datasets or single-task learning.
 
-[![Video Lecture](https://img.youtube.com/vi/MxVTPCaU72A/0.jpg)](https://youtu.be/MxVTPCaU72A)
+[![Video Lecture](https://img.youtube.com/vi/BtKn7-EOfLM/0.jpg)](https://youtu.be/BtKn7-EOfLM)
 
 ### 2.1 Transfer Learning
 
