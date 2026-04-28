@@ -50,6 +50,8 @@ AI began as a **broad field** seeking to replicate human reasoning, but graduall
 While ML focuses on data-driven adaptation, another branch — **Computational Intelligence (CI)** — explores how **nature itself computes**.  
 These paradigms study emergent, adaptive, and self-organizing behaviors.
 
+[![Video Lecture](https://img.youtube.com/vi/mIGrAHlBxKc/0.jpg)](https://youtu.be/mIGrAHlBxKc)
+
 ### 2.1 Computational Intelligence (CI)
 
 - A multidisciplinary field that focuses on developing algorithms and models **inspired by nature and human cognition** to tackle complex problems.
