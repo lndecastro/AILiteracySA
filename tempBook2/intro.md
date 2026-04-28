@@ -49,7 +49,7 @@ Each module builds on the previous one — guiding you from “What is AI?” to
 - Navigate the modules using the left-hand sidebar or the **Next/Previous** buttons at the bottom of each page.
 - Download pages as `.md` or `.pdf` for your notes.
 - Look for **💡 Examples**, **⚙️ Exercises**, and **📘 Further Reading** sections to deepen your understanding.
-- Many pages include **interactive code cells** you can copy and launch in most LLM models, such as ChatGPT, Claude, Gemini, Co-Pilot, etc.
+- Many pages include **interactive code cells** you can copy and paste in most LLM models, such as ChatGPT, Claude, Gemini, Co-Pilot, etc.
 - Use this book alongside the Canvas course, masterclasses, videos, and AI tool demonstrations offered by the **FGCU AI Academy**.
 
 ## Human-Centered AI
