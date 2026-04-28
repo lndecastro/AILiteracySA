@@ -17,6 +17,8 @@ After completing this module, you will be able to:
 The way a machine learns depends on the **type of information** available and the **goal** of the learning process.  
 Machine Learning can be categorized into four main paradigms: supervised, unsupervised, semi-supervised, and reinforcement learning.
 
+[![Video Lecture](https://img.youtube.com/vi/MxVTPCaU72A/0.jpg)](https://youtu.be/MxVTPCaU72A)
+
 ### 1.1 Supervised Learning
 
 - The most common and well-understood paradigm.
