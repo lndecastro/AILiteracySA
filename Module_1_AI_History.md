@@ -17,10 +17,7 @@ After completing this module, you will be able to:
 Artificial Intelligence was born at the intersection of **philosophy, mathematics, and computer science**.  
 The first decades were marked by ambitious ideas and groundbreaking experiments.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xXZ5vlCeG-k" 
-title="YouTube video player" frameborder="0" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+[![Watch the video lecture](https://img.youtube.com/vi/xXZ5vlCeG-k/0.jpg)](https://youtu.be/xXZ5vlCeG-k)
 
 ### 1.1 The Birth of the Idea
 
