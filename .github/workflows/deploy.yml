@@ -21,22 +21,22 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install jupyter-book ghp-import
+          pip install -r requirements.txt
 
       - name: Clean previous builds
         run: |
-          jupyter-book clean AI_Literacy2 --all || true
+          jupyter-book clean tempBook2 --all || true
           
       - name: List book files
         run: |
-          ls -R AI_Literacy2
+          ls -R tempBook2
 
       - name: Build Jupyter Book
         run: |
-          jupyter-book clean AI_Literacy2 --all || true
-          jupyter-book build AI_Literacy2 --debug
-          ls -R AI_Literacy2/_build/html
-
+          jupyter-book clean tempBook2 --all || true
+          jupyter-book build tempBook2
+          ls -R tempBook2/_build/html
+          
       - name: Deploy to GitHub Pages
         run: |
-          ghp-import -n -p -f AI_Literacy2/_build/html
+          ghp-import -n -p -f tempBook2/_build/html
