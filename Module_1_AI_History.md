@@ -17,7 +17,7 @@ After completing this module, you will be able to:
 Artificial Intelligence was born at the intersection of **philosophy, mathematics, and computer science**.  
 The first decades were marked by ambitious ideas and groundbreaking experiments.
 
-[![Watch the video lecture](https://img.youtube.com/vi/xXZ5vlCeG-k/0.jpg)](https://youtu.be/xXZ5vlCeG-k)
+[![Video lecture](https://img.youtube.com/vi/xXZ5vlCeG-k/0.jpg)](https://youtu.be/xXZ5vlCeG-k)
 
 ### 1.1 The Birth of the Idea
 
@@ -45,6 +45,8 @@ Yet, during these winters, important foundations such as **backpropagation**, **
 ## Part II — Modern AI Development (2000 – 2025)
 
 At the turn of the century, AI entered a new era — one driven by **data**, **computation**, and **connectivity**.
+
+[![Video Lecture](https://img.youtube.com/vi/BiaAreHiQRs/0.jpg)](https://youtu.be/BiaAreHiQRs)
 
 ### 2.1 The Rise of Machine Learning
 
@@ -75,6 +77,8 @@ At the turn of the century, AI entered a new era — one driven by **data**, **c
 ## Part III — The Future Horizon
 
 AI’s future will likely be defined by the balance between **capability**, **responsibility**, and **human-centered design**.
+
+[![Video Lecture](https://img.youtube.com/vi/qXBZSk-Va-g/0.jpg)](https://youtu.be/qXBZSk-Va-g)
 
 ### 3.1 Emerging Trends
 
