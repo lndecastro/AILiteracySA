@@ -16,6 +16,8 @@ After completing this module, you will be able to:
 
 AI began as a **broad field** seeking to replicate human reasoning, but gradually branched into **data-driven subfields** that learn from examples instead of rules and **automation approaches** that allow machines to make decisions in complex environments, from the automation of tasks to autonomous navigation systems.
 
+[![Video Lecture](https://img.youtube.com/vi/F1_w8ygCNew/0.jpg)](https://youtu.be/F1_w8ygCNew)
+
 ### 1.1 Artificial Intelligence (AI)
 
 - The science and engineering of building systems that can perform tasks requiring human intelligence — such as reasoning, learning, perception, and decision-making.
@@ -48,6 +50,8 @@ AI began as a **broad field** seeking to replicate human reasoning, but graduall
 While ML focuses on data-driven adaptation, another branch — **Computational Intelligence (CI)** — explores how **nature itself computes**.  
 These paradigms study emergent, adaptive, and self-organizing behaviors.
 
+[![Video Lecture](https://img.youtube.com/vi/e92wTwH66AE/0.jpg)](https://youtu.be/e92wTwH66AE)
+
 ### 2.1 Computational Intelligence (CI)
 
 - A multidisciplinary field that focuses on developing algorithms and models **inspired by nature and human cognition** to tackle complex problems.
@@ -77,6 +81,8 @@ These paradigms study emergent, adaptive, and self-organizing behaviors.
 ## Part III — Big Data, Data Science, Knowledge Discovery, Data Mining, and NLP
 
 Modern AI depends on the **availability of usually massive data** and **tools to extract knowledge** from it.
+
+[![Video Lecture](https://img.youtube.com/vi/MxVTPCaU72A/0.jpg)](https://youtu.be/MxVTPCaU72A)
 
 ### 3.1 Big Data
 
