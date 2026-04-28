@@ -422,7 +422,7 @@ Unlike a single chat, this space integrates:
 
 Together, these differences show that Projects serve as **collaborative workspaces**.
 
-### 6.6.3 Personalized Assistants vs. AI WOrkspaces
+### 6.6.3 Personalized Assistants vs. AI Workspaces
 
 Both **personalized assistants** (like Custom GPTs or Gems) and **AI Workspaces** (structured workspaces such as OpenAI Projects, Claude Projects, Grok Projects, or Perplexity Spaces) extend the power of foundational models. They serve different but complementary purposes.
 
