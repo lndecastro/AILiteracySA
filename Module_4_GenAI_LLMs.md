@@ -2,6 +2,8 @@
 
 Artificial Intelligence has entered a new era — one where machines not only **analyze** information but also **create** it. **Generative AI (GenAI)** represents the most visible and transformative branch of modern AI, capable of producing text, images, music, videos, and even software code. At the heart of this revolution are **Large Language Models (LLMs)** — systems that learn patterns of human language and use them to generate coherent, contextually appropriate responses.
 
+[![Video Lecture](https://img.youtube.com/vi/CR4piA-NjW4/0.jpg)](https://youtu.be/CR4piA-NjW4)
+
 ## Learning Objectives
 
 After completing this module, you will be able to:
