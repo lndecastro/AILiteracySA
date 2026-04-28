@@ -1,10 +1,10 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: "AI Literacy"
+title: "AI Literacy Summer Academy"
 author: Leandro Nunes de Castro, Ph.D.
 logo: dendritic_logo.png
-copyright: "2025"
+copyright: "2026"
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -14,7 +14,7 @@ execute:
 # Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
-    targetname: AI_Literacy.tex
+    targetname: AILiteracySA.tex
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
@@ -22,7 +22,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/lndecastro/AI_Literacy # Online location of your book ( Change this to new repo name )
+  url: https://github.com/lndecastro/AILiteracySA # Online location of your book ( Change this to new repo name )
   path_to_book: tempBook2 # Optional path to your book, relative to the repository root
   branch: main # Which branch of the repository should be used when creating links (optional)
 
