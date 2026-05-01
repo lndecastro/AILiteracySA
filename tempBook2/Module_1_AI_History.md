@@ -46,7 +46,7 @@ Yet, during these winters, important foundations such as **backpropagation**, **
 
 At the turn of the century, AI entered a new era — one driven by **data**, **computation**, and **connectivity**.
 
-[![Video Lecture](https://img.youtube.com/vi/BiaAreHiQRs/0.jpg)](https://youtu.be/BiaAreHiQRs)
+[![Video Lecture](https://img.youtube.com/vi/qXBZSk-Va-g/0.jpg)](https://youtu.be/qXBZSk-Va-g)
 
 ### 2.1 The Rise of Machine Learning
 
@@ -78,7 +78,7 @@ At the turn of the century, AI entered a new era — one driven by **data**, **c
 
 AI’s future will likely be defined by the balance between **capability**, **responsibility**, and **human-centered design**.
 
-[![Video Lecture](https://img.youtube.com/vi/qXBZSk-Va-g/0.jpg)](https://youtu.be/qXBZSk-Va-g)
+[![Video Lecture](https://img.youtube.com/vi/BiaAreHiQRs/0.jpg)](https://youtu.be/BiaAreHiQRs)
 
 ### 3.1 Emerging Trends
 
