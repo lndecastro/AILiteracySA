@@ -218,14 +218,12 @@ Output: Provide three bullet points under the headings:
 2. Compare the two outputs (baseline vs. context-engineered).
 3. Reflect: _What improvements did context engineering bring to the AI’s response?_
 
-## 6.4 Personalized Assistants and AI Workspaces: Extending the GenAI Toolkit
+## 6.4 Personalized Assistants
 
 Generative AI tools like ChatGPT, Perplexity and Claude provide powerful **general-purpose intelligence**, but professionals often need **domain-specific capabilities**.
 Two recent innovations — **Personalized Assistants** and **AI Workspaces (Projects)** — enable you to move beyond using AI _as-is_ and start **building tailored AI solutions**.
 
-### Personalized Assistants
-
-**What are they?**  
+**What are Personalized Assistants?**  
 Personalized assistants, such as _Custom GPTs_, are personalized versions of general-purpose models (like GPT-4/5) that you configure with **specific instructions, knowledge base (data), and potentially integrate with external tools** to perform specialized tasks more effectively than a general model. Think of them as your own AI partner that understands your context.
 
 **When to use them?**
@@ -316,9 +314,9 @@ Your assistant should be able to answer questions, summarize modules, and guide 
    - What improvements would you make to the system message or dataset?
    - Analyze the difference in responses when allowing the PA to reply by using Web Search and otherwise.
 
-### AI Workspaces (Projects)
+## 6.5 AI Workspaces (Projects)
 
-**What are they?**  
+**What are AI Workspaces?**  
 Projects are collaborative **AI workspaces** that allow teams to combine **LLM interactions, files, data, personalized assistants, and notes** into one structured environment.
 Instead of isolated chats, a Project acts as a **hub of AI-augmented workflows**.
 
@@ -422,7 +420,7 @@ Unlike a single chat, this space integrates:
 
 Together, these differences show that Projects serve as **collaborative workspaces**.
 
-### Personalized Assistants vs. AI Workspaces
+## 6.6 Personalized Assistants vs. AI Workspaces
 
 Both **personalized assistants** (like Custom GPTs or Gems) and **AI Workspaces** (structured workspaces such as OpenAI Projects, Claude Projects, Grok Projects, or Perplexity Spaces) extend the power of foundational models. They serve different but complementary purposes.
 
