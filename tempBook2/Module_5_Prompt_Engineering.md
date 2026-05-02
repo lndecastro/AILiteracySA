@@ -139,7 +139,7 @@ English: I’m hungry → Portuguese:
 **Example Prompt:**
 
 ```
-List and briefly describe three essential books for beginners who want to learn about artificial intelligence.
+List and briefly describe three essential books for beginners who want to learn about exploratory data Analysis.
 ```
 
 #### 2️⃣ Role-Based Pattern
@@ -149,7 +149,7 @@ List and briefly describe three essential books for beginners who want to learn 
 **Example Prompt:**
 
 ```
-You are a university professor teaching an AI Literacy course. Recommend three foundational books that would help your students understand artificial intelligence.
+You are a university professor teaching a Data Analysis course. Recommend three foundational books that would help your students understand exploratory data Analysis.
 ```
 
 #### 3️⃣ Chain-of-Thought Pattern
@@ -159,7 +159,7 @@ You are a university professor teaching an AI Literacy course. Recommend three f
 **Example Prompt:**
 
 ```
-Think step by step. First explain what qualities make a good introductory book on artificial intelligence, then recommend three that meet those criteria.
+Think step by step. First explain what qualities make a good introductory book on exploratory data Analysis, then recommend three that meet those criteria.
 ```
 
 #### 4️⃣ Zero-Shot Pattern
@@ -169,7 +169,7 @@ Think step by step. First explain what qualities make a good introductory book o
 **Example Prompt:**
 
 ```
-Recommend three books for someone interested in artificial intelligence.
+Recommend three books for someone interested in exploratory data Analysis.
 ```
 
 #### 5️⃣ Few-Shot Pattern
