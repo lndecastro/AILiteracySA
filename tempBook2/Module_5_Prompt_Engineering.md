@@ -12,9 +12,9 @@ After completing this module, you will be able to:
 - Compare how prompt structures influence AI outputs.
 - Practice prompt improvement through iteration.
 
-## 5.1 What is Prompt Engineering?
+## 5.1 Prompt Engineering
 
-Prompt engineering is the practice of crafting effective inputs (prompts) for large language models (LLMs) to produce accurate, relevant, and useful outputs.
+**Prompt engineering** is the practice of crafting effective inputs (prompts) for large language models (LLMs) to produce accurate, relevant, and useful outputs.
 
 Unlike traditional programming, where you write rigid code, prompt engineering is about **communicating naturally** with an AI system — and doing so **strategically**.
 
@@ -39,7 +39,7 @@ A good prompt typically includes:
 - It helps tailor responses to specific **tasks and audiences**.
 - It allows you to guide the model toward **more reliable, interpretable results**.
 
-## 5.4 Example Prompt
+### Example Prompt
 
 ```
 You are a scientific editor. Summarize the text below into 3 bullet points for a general audience.
@@ -70,7 +70,7 @@ List three potential risks of using AI in hiring decisions.
 2. Which component(s) are **missing**?  
 3. Does the absence of those components matter here? Why or why not?  
 
-## 5.5 Prompt Patterns
+## 5.4 Prompt Patterns
 
 **Prompt patterns** are reusable structures that help you get consistent, high-quality results from language models. Understanding them empowers you to choose the right style for your goal.
 
@@ -190,9 +190,9 @@ Now follow the same format for this topic:
 Topic: Artificial Intelligence
 ```
 
-## 5.6 Why Iteration Matters
+## 5.5 Prompt Iteration
 
-Prompting is often **not a one-shot process**. Even good prompts may return incomplete, vague, or misleading results. The key is to **test, analyze, and refine**.
+Prompting is often **not a single-step process**. Even good prompts may return incomplete, vague, or misleading results. The key is to **test, analyze, and refine**.
 
 Iteration helps you:
 
@@ -201,7 +201,7 @@ Iteration helps you:
 - Adjust tone or output format
 - Explore different framing approaches
 
-## 5.7 The Iterative Prompting Process
+### The Iterative Prompting Process
 
 1. **Draft the initial prompt**  
    _Write a basic version of your request._
@@ -295,7 +295,7 @@ Create a short table comparing the outputs:
 2. How did adding *role* or *examples* change the AI’s tone or structure?  
 3. How might bias or ambiguity in your wording affect the output?  
 
-## 5.8 Reverse Prompting: A Prompt Analysis Technique
+## 5.6 Reverse Prompting: A Prompt Analysis Technique
 
 Beyond writing prompts, there are methods to **analyze and understand** how prompts work. These techniques help you learn, debug, and improve your prompting skills.
 Reverse prompting means starting from an **output** and asking:
@@ -375,7 +375,7 @@ Reverse prompt this output: propose at least two different prompts that might ha
 For each proposed prompt, explain why it would likely generate this output and how changing its phrasing might alter the answer.
 ```
 
-## 5.9 Meta-Prompting
+## 5.7 Meta-Prompting: Designing, Evaluating, and Rewriting Prompts
 
 While **reverse prompting** starts from an output and works backwards to find the prompt that generated the output, **meta-prompting** takes a different angle: it means using the LLM *itself* as a collaborator to help you **design, evaluate, rewrite, or generate better prompts**.
 
@@ -535,7 +535,7 @@ I want to ask an AI to help me decide whether to accept a job offer in another c
 
 Compare the three versions. Which one feels most useful for your situation, and why?
 
-## 5.10 Tips for Troubleshooting and Improving Prompts
+## 5.8 Tips for Troubleshooting and Improving Prompts
 
 - If output is **too generic**: Add specific instructions or examples.
 - If output **hallucinates**: Ask the model to “only use provided information” or to look for verifiable sources. You can also ask the model to cite the sources.
@@ -546,7 +546,7 @@ Compare the three versions. Which one feels most useful for your situation, and 
 
 > Note: Once you understand how the LLM generates its output, hallucinations become a natural outcome and our role as moderators becomes evident. It is also important to acknowledge that the GenAI models can create statistics to provide data and results, and these statistics are not always directly available in the sources.
 
-## 5.11 Assessing Prompt Quality
+## 5.9 Assessing Prompt Quality
 
 Five criteria to judge the effectiveness of a prompt-output pair:
 
