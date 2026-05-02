@@ -312,7 +312,7 @@ It is useful for:
 
 > Reverse prompting is not a prompt type itself — it is an **analytical method** for understanding model behavior and improving your own prompt engineering skills.
 
-To reverse-prompting you can use a technique called **meta-prompt**, which asks the LLM to reverse prompt an output. Here is a general-purpose structure you can adapt to your context and use:
+Here is a general-purpose structure you can adapt to your context and use to ask the LLM to reverse prompt an output:
 
 ```
 Here is an AI-generated output:
@@ -375,7 +375,167 @@ Reverse prompt this output: propose at least two different prompts that might ha
 For each proposed prompt, explain why it would likely generate this output and how changing its phrasing might alter the answer.
 ```
 
-## 5.9 Tips for Troubleshooting and Improving Prompts
+## 5.9 Meta-Prompting
+
+While **reverse prompting** starts from an output and works backwards to find the prompt that generated the output, **meta-prompting** takes a different angle: it means using the LLM *itself* as a collaborator to help you **design, evaluate, rewrite, or generate better prompts**.
+
+In other words, meta-prompting is the practice of writing **prompts about prompts**.
+
+> Meta-prompting is not about a specific task — it is about using AI as a **thinking partner for your own prompt design process**.
+
+It is useful for:
+
+- Generating prompt ideas when you are unsure how to phrase a request
+- Improving a weak or vague prompt before using it on your real task
+- Evaluating whether a prompt is likely to produce high-quality output
+- Exploring alternative formulations of the same goal
+- Learning effective prompt structures by asking the model to explain or demonstrate them
+
+> Meta-prompting is not a prompt pattern itself — it is a **design and improvement technique** that uses the model's language understanding to strengthen your communication with it.
+
+### General-Purpose Meta-Prompt Templates
+
+The following reusable structures can be adapted to different meta-prompting goals.
+
+**Template 0 — Create a Prompt from Scratch:**
+```
+You are an expert prompt engineer with deep knowledge in [AREA OF EXPERTISE].
+
+I want to create an effective prompt to accomplish the following goal: [GOAL].
+
+Before writing the prompt, ask me targeted questions to gather what you need. 
+Focus on understanding:
+- The intended audience for the AI's response
+- The desired tone and style
+- The preferred output format or structure
+- Any constraints, limitations, or things to avoid
+
+Once you have enough information, craft a complete, well-structured prompt.
+Present the final prompt clearly and briefly explain the key design choices you made.
+Then ask me if I would like to refine it further. 
+```
+
+**Template 1 — Improve a Weak Prompt:**
+```
+Here is a prompt I wrote:
+
+[PASTE YOUR PROMPT HERE]
+
+My goal is: [DESCRIBE WHAT YOU ARE TRYING TO ACHIEVE]
+My audience is: [DESCRIBE WHO WILL READ THE OUTPUT]
+
+Please rewrite this prompt to make it more effective. Explain what you changed and why.
+```
+
+**Template 2 — Generate Prompt Alternatives:**
+```
+I want to ask an AI to [DESCRIBE YOUR TASK].
+
+Generate three different versions of this prompt — one instructional, one role-based,
+and one chain-of-thought. Briefly explain the strengths of each.
+```
+
+**Template 3 — Evaluate a Prompt Before Using It:**
+```
+Review the following prompt and assess it against these five criteria:
+Relevance, Completeness, Clarity, Likely Accuracy, and Format Guidance.
+
+Prompt:
+[PASTE YOUR PROMPT HERE]
+
+For each criterion, rate it as Strong, Adequate, or Weak, and suggest one improvement.
+```
+
+### Meta-Prompting Example
+
+**Goal:** Improve a vague prompt about explaining AI to a non-technical audience.
+
+**Original (Weak) Prompt:**
+```
+Explain AI.
+```
+
+**Meta-Prompt Submitted to the LLM:**
+```
+Here is a prompt I wrote:
+
+"Explain AI."
+
+My goal is to help a group of senior citizens at a community center understand
+what AI is and how it affects their daily lives.
+
+Please rewrite this prompt to make it more effective. Explain what you changed and why.
+```
+
+**LLM's Suggested Improved Prompt:**
+```
+You are a friendly technology educator speaking to a group of adults aged 65 and over
+who have no technical background.
+
+Explain what Artificial Intelligence is in plain, everyday language. Use two or three
+examples from daily life — such as voice assistants, streaming recommendations,
+or GPS navigation — to make the concept relatable.
+
+Keep your response to one short paragraph and avoid technical jargon.
+```
+
+**What the meta-prompt added:**
+- A clear **role** for the AI (friendly educator)
+- A defined **audience** (seniors, non-technical)
+- Concrete **examples** to ground the explanation
+- An **output format** constraint (one paragraph, no jargon)
+
+This shows how meta-prompting can help:
+
+- **Accelerate prompt design** — instead of trial and error, you get targeted improvements immediately.
+- **Learn by example** — the model's rewrite teaches you which elements were missing and why they matter.
+- **Bridge the gap between intent and instruction** — it helps translate what you *want* into what the AI can *act on*.
+
+### How Reverse Prompting and Meta-Prompting Differ
+
+Both techniques use the LLM as a reflective tool, but they serve different purposes:
+
+| Aspect | Reverse Prompting | Meta-Prompting |
+|---|---|---|
+| **Starting point** | An existing AI output | A goal, task, or weak prompt |
+| **Direction** | Output → inferred prompt | Goal/prompt → improved prompt |
+| **Primary use** | Understanding how outputs were generated | Designing and improving prompts |
+| **Question it answers** | *"What prompt created this?"* | *"How can I prompt this better?"* |
+| **Analogy** | Reading a recipe from a finished dish | Consulting a chef before you start cooking |
+
+> In practice, the two techniques are **complementary**: reverse prompting helps you learn from existing outputs, while meta-prompting helps you design better inputs from the start.
+
+### Exercise 5: Meta-Prompting in Practice
+
+**Part A — Improve a Weak Prompt**
+
+Use Template 1 above to submit the following weak prompt to any LLM of your choice.
+Fill in the goal and audience fields based on the scenario provided, then record the improved prompt the model returns.
+
+**Weak Prompt:**
+```
+Write something about climate change for my presentation.
+```
+
+**Scenario:** You are a student preparing a five-minute presentation for a high school science class. Your goal is to explain the main causes of climate change in an engaging and accessible way.
+
+**Your Task:**
+1. Fill in the meta-prompt template with the scenario details and submit it to an LLM.
+2. Record the improved prompt the model suggests.
+3. Now use that improved prompt on the same LLM and compare the output to what the original weak prompt would have produced.
+
+**Part B — Generate Alternatives**
+
+Use Template 2 to generate three versions of the following task prompt — instructional, role-based, and chain-of-thought.
+
+**Task:**
+```
+I want to ask an AI to help me decide whether to accept a job offer in another city.
+```
+
+Compare the three versions. Which one feels most useful for your situation, and why?
+
+## 5.10 Tips for Troubleshooting and Improving Prompts
 
 - If output is **too generic**: Add specific instructions or examples.
 - If output **hallucinates**: Ask the model to “only use provided information” or to look for verifiable sources. You can also ask the model to cite the sources.
@@ -386,7 +546,7 @@ For each proposed prompt, explain why it would likely generate this output and h
 
 > Note: Once you understand how the LLM generates its output, hallucinations become a natural outcome and our role as moderators becomes evident. It is also important to acknowledge that the GenAI models can create statistics to provide data and results, and these statistics are not always directly available in the sources.
 
-## 5.10 Assessing Prompt Quality
+## 5.11 Assessing Prompt Quality
 
 Five criteria to judge the effectiveness of a prompt-output pair:
 
