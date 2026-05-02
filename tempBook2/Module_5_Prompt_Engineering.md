@@ -48,7 +48,7 @@ Text:
 Prompt engineering is the practice of crafting effective inputs (prompts) to guide generative AI models like ChatGPT, Claude, or Gemini toward producing accurate, relevant, and useful outputs. It involves understanding how AI interprets language and strategically structuring prompts to achieve specific goals, whether it is summarizing text, generating code, analyzing data, or creating content. Good prompt engineering can significantly enhance the quality of AI responses, making it a critical skill for maximizing productivity and creativity with AI tools.
 ```
 
-## Exercise 1: Deconstruct This Prompt
+## Exercise 1: Anatomy of a Prompt
 
 Given the prompt below, identify its components:
 
@@ -59,11 +59,22 @@ Message:
 I was evicted without notice on June 3rd even though I paid rent until July...
 ```
 
-## 5.5 Why Prompt Patterns Matter
+For the prompt below, do:
+```
+List three potential risks of using AI in hiring decisions.
+```
 
-Prompt patterns are reusable structures that help you get consistent, high-quality results from language models. Understanding them empowers you to choose the right style for your goal.
+**Questions:**
 
-## 5.6 Common Prompt Types
+1. Which component(s) are present in this prompt?  
+2. Which component(s) are **missing**?  
+3. Does the absence of those components matter here? Why or why not?  
+
+## 5.5 Prompt Patterns
+
+**Prompt patterns** are reusable structures that help you get consistent, high-quality results from language models. Understanding them empowers you to choose the right style for your goal.
+
+### Common Prompt Patterns
 
 1. **Instructional Prompts** <p>
    Directly ask the model to perform a task, e.g.:
@@ -107,7 +118,7 @@ English: I’m hungry → Portuguese:
 
 ![Prompt Types](../Data/PromptTypes.png)
 
-## 5.7 Prompt Comparison
+### Prompt Patterns Comparison
 
 | Pattern          | Use Case                               | Example Role/Task                             |
 | ---------------- | -------------------------------------- | --------------------------------------------- |
@@ -117,11 +128,11 @@ English: I’m hungry → Portuguese:
 | Zero-Shot        | Fast and generic tasks                 | “Translate to Spanish…”                       |
 | Few-Shot         | Custom structure or format             | “English → French examples…”                  |
 
-## Prompt Pattern Comparison Example
+### Prompt Pattern Comparison Example
 
 **Task**: Recommend three books for someone interested in artificial intelligence. The goal is to compare how different prompt formulations influence the quality, depth, and tone of the AI’s responses.
 
-### 1️⃣ Instructional Pattern
+#### 1️⃣ Instructional Pattern
 
 **Structure:** Clearly instruct the AI to perform a task or deliver information in a specific way.
 
@@ -131,7 +142,7 @@ English: I’m hungry → Portuguese:
 List and briefly describe three essential books for beginners who want to learn about artificial intelligence.
 ```
 
-### 2️⃣ Role-Based Pattern
+#### 2️⃣ Role-Based Pattern
 
 **Structure:** Ask the AI to _take on a persona_ or _expert role_ before performing the task.
 
@@ -141,7 +152,7 @@ List and briefly describe three essential books for beginners who want to learn 
 You are a university professor teaching an AI Literacy course. Recommend three foundational books that would help your students understand artificial intelligence.
 ```
 
-### 3️⃣ Chain-of-Thought Pattern
+#### 3️⃣ Chain-of-Thought Pattern
 
 **Structure:** Instruct the AI to _show its reasoning_ step-by-step before providing the final answer.
 
@@ -151,7 +162,7 @@ You are a university professor teaching an AI Literacy course. Recommend three f
 Think step by step. First explain what qualities make a good introductory book on artificial intelligence, then recommend three that meet those criteria.
 ```
 
-### 4️⃣ Zero-Shot Pattern
+#### 4️⃣ Zero-Shot Pattern
 
 **Structure:** Provide the task _with no examples or additional guidance._
 
@@ -161,7 +172,7 @@ Think step by step. First explain what qualities make a good introductory book o
 Recommend three books for someone interested in artificial intelligence.
 ```
 
-### 5️⃣ Few-Shot Pattern
+#### 5️⃣ Few-Shot Pattern
 
 **Structure:** Provide _examples_ before giving the task, so the AI can mimic the style or format.
 
@@ -179,7 +190,7 @@ Now follow the same format for this topic:
 Topic: Artificial Intelligence
 ```
 
-## 5.8 Why Iteration Matters
+## 5.6 Why Iteration Matters
 
 Prompting is often **not a one-shot process**. Even good prompts may return incomplete, vague, or misleading results. The key is to **test, analyze, and refine**.
 
@@ -190,7 +201,7 @@ Iteration helps you:
 - Adjust tone or output format
 - Explore different framing approaches
 
-## 5.9 The Iterative Prompting Process
+## 5.7 The Iterative Prompting Process
 
 1. **Draft the initial prompt**  
    _Write a basic version of your request._
@@ -284,7 +295,7 @@ Create a short table comparing the outputs:
 2. How did adding *role* or *examples* change the AI’s tone or structure?  
 3. How might bias or ambiguity in your wording affect the output?  
 
-## 5.10 Reverse Prompting: A Prompt Analysis Technique
+## 5.8 Reverse Prompting: A Prompt Analysis Technique
 
 Beyond writing prompts, there are methods to **analyze and understand** how prompts work. These techniques help you learn, debug, and improve your prompting skills.
 Reverse prompting means starting from an **output** and asking:
@@ -364,7 +375,7 @@ Reverse prompt this output: propose at least two different prompts that might ha
 For each proposed prompt, explain why it would likely generate this output and how changing its phrasing might alter the answer.
 ```
 
-## 5.11 Tips for Troubleshooting and Improving Prompts
+## 5.9 Tips for Troubleshooting and Improving Prompts
 
 - If output is **too generic**: Add specific instructions or examples.
 - If output **hallucinates**: Ask the model to “only use provided information” or to look for verifiable sources. You can also ask the model to cite the sources.
@@ -375,7 +386,7 @@ For each proposed prompt, explain why it would likely generate this output and h
 
 > Note: Once you understand how the LLM generates its output, hallucinations become a natural outcome and our role as moderators becomes evident. It is also important to acknowledge that the GenAI models can create statistics to provide data and results, and these statistics are not always directly available in the sources.
 
-## 5.12 Assessing Prompt Quality
+## 5.10 Assessing Prompt Quality
 
 Five criteria to judge the effectiveness of a prompt-output pair:
 
