@@ -317,8 +317,8 @@ Your assistant should be able to answer questions, summarize modules, and guide 
 ## 6.5 AI Workspaces (Projects)
 
 **What are AI Workspaces?**  
-Projects are collaborative **AI workspaces** that allow teams to combine **LLM interactions, files, data, personalized assistants, and notes** into one structured environment.
-Instead of isolated chats, a Project acts as a **hub of AI-augmented workflows**.
+Projects are collaborative **AI workspaces** that allow teams to combine **LLM interactions, files, data, and notes** into one structured environment.
+Instead of isolated chats, an Ai workspace acts as a **hub of AI-augmented workflows**, maintaing the history and context of your digital work environment.
 
 **When to use them?**
 
@@ -402,21 +402,22 @@ Instead of isolated chats, a Project acts as a **hub of AI-augmented workflows**
    - Invite other instructors, teaching assistants, or curriculum designers to contribute.
    - Encourage shared editing, annotation, and feedback to refine insights collaboratively.
 
-**Why It’s an AI Workspace** <p>
-Unlike a single chat, this space integrates:
+**Why Is It an AI Workspace?** <p>
+Unlike a single chat or a simple folder, this space integrates:
 
 - **Files:** Upload the eight course slide decks and Jupyter Book chapters (like *AI History* and *Generative AI & LLMs*).  
 - **Custom instructions:** Guide the model to act as a *Course Assistant*—helping summarize lectures, quiz students, and explain historical milestones.  
 - **Collaboration:** Instructors, fellows, and students can all refine prompts, add materials, and build knowledge together.  
 - **Persistence:** All conversations, uploads, and generated outputs remain in one place—turning AI dialogue into a reusable asset.
+- **Context:** The workspace not only stores all the conversation threads developed within the project, but it also maintains the consistency of the context.
 
-**Why It’s _Not_ a Personalized Assistant** <p>
+**Why Is It _Not_ a Personalized Assistant?** <p>
 
-- **Scope:** A Project contains *multiple assistants, files, and workflows*, instead of a single AI persona with fixed behavior.  
-- **Purpose:** It focuses on *collaborative tasks* and shared outputs, while a Personalized Assistant is designed for *personalized interactions* with one user.  
+- **Scope:** A Project contains *multiple files and workflows*, instead of a single AI persona with fixed behavior.  
+- **Purpose:** It focuses on *collaborative tasks*, context, persistence and shared outputs, while a Personalized Assistant is designed for *personalized interactions* with one user usually around a single subject.  
 - **Structure:** Projects integrate diverse materials and dynamic contexts; PAs operate from a *static instruction set*.  
 - **Ownership:** Projects can be co-managed by a *team or class*; PAs are *owned and edited by one creator*.  
-- **Adaptability:** Projects allow real-time exploration and iteration across topics; PAs are pre-configured for consistency.  
+- **Adaptability:** Projects allow real-time exploration and iteration across topics; PAs are pre-configured for consistency and only its creators can update their structure, features, and knowledge base.  
 
 Together, these differences show that Projects serve as **collaborative workspaces**.
 
@@ -441,8 +442,8 @@ Both **personalized assistants** (like Custom GPTs or Gems) and **AI Workspaces*
 - Use **Personalized Assistants** when your goal is to **simulate a role or automate a conversation**. They are like _agents you can design_: a customer service rep, an analyst, or even a coach.
 - Use **AI Workspaces** when your goal is to **structure knowledge, organize complexity, or collaborate as a team**. They are like a _digital office space_ where people and AI work together on shared artifacts.
 - In practice, more sophisticated applications often combine both:
-  - An **AI Workspace** to organize market research and design the product.
-  - A **Personalized Assistant** as the product itself (e.g., a customer-facing assistant powered by that research).
+  - An **AI Workspace** to organize and develop content and workflows.
+  - A **Personalized Assistant** as the product itself or as a tutor (e.g., a customer-facing assistant powered by that research).
 
 **Key Insight:** Assistants help you **execute tasks**, while Workspaces help you **organize work**. Together, they form the backbone of a GenAI-enabled workflow.
 
@@ -463,8 +464,8 @@ Below is a **comparative table** (as of October 2025) of how major platforms imp
 
 ### Connecting to Our Course
 
-- In **Prompt Engineering**, we explored generative AI as a tool for creativity and analysis.
-- With **Custom GPTs**, you learn how to **design your own AI-powered assistants**.
+- In **Prompt Engineering**, we explore generative AI as a tool for creativity and analysis.
+- With **Personalized Assistants**, you learn how to **design your own AI-powered assistants**.
 - With **AI Workspaces** and their equivalents, you experience how AI can become a **shared workspace**, helping you manage complexity while building your solution.
 - Both features let you test assumptions, gather feedback, and iterate quickly with minimal cost.
 
