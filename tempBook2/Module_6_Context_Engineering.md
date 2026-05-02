@@ -128,7 +128,7 @@ Context engineering integrates multiple techniques to shape how AI systems inter
 | Goal    | Better single response | Consistent, domain-specific high-quality outputs |
 | Analogy | Writing a recipe       | Designing the entire kitchen and pantry setup    |
 
-## 6.4 Example in Education and Learning
+### Example in Education and Learning
 
 Download the [Sample lesson plans](../Data/SampleLessonPlans.pdf).
 Download the [Task lesson plan](../Data/TaskLessonPlan.pdf).
@@ -153,7 +153,7 @@ Output: Provide a structured table with Strengths, Weaknesses, and Improvement S
 
 By embedding **role, reference materials, task, and output format**, the model produces more reliable and actionable results.
 
-## 6.5 Example in Healthcare
+### Example in Healthcare
 
 Download the [Anonimized patient case](../Data/AnonymizedPatientCase.pdf).
 Download the [Reference file](../Data/ReferenceFile.pdf)
@@ -218,12 +218,12 @@ Output: Provide three bullet points under the headings:
 2. Compare the two outputs (baseline vs. context-engineered).
 3. Reflect: _What improvements did context engineering bring to the AI’s response?_
 
-## 6.6 Personalized Assistants and AI Workspaces: Extending the GenAI Toolkit
+## 6.4 Personalized Assistants and AI Workspaces: Extending the GenAI Toolkit
 
 Generative AI tools like ChatGPT, Perplexity and Claude provide powerful **general-purpose intelligence**, but professionals often need **domain-specific capabilities**.
 Two recent innovations — **Personalized Assistants** and **AI Workspaces (Projects)** — enable you to move beyond using AI _as-is_ and start **building tailored AI solutions**.
 
-### 6.6.1 Personalized Assistants
+### Personalized Assistants
 
 **What are they?**  
 Personalized assistants, such as _Custom GPTs_, are personalized versions of general-purpose models (like GPT-4/5) that you configure with **specific instructions, knowledge base (data), and potentially integrate with external tools** to perform specialized tasks more effectively than a general model. Think of them as your own AI partner that understands your context.
@@ -316,7 +316,7 @@ Your assistant should be able to answer questions, summarize modules, and guide 
    - What improvements would you make to the system message or dataset?
    - Analyze the difference in responses when allowing the PA to reply by using Web Search and otherwise.
 
-### 6.6.2 AI Workspaces (Projects)
+### AI Workspaces (Projects)
 
 **What are they?**  
 Projects are collaborative **AI workspaces** that allow teams to combine **LLM interactions, files, data, personalized assistants, and notes** into one structured environment.
@@ -422,7 +422,7 @@ Unlike a single chat, this space integrates:
 
 Together, these differences show that Projects serve as **collaborative workspaces**.
 
-### 6.6.3 Personalized Assistants vs. AI Workspaces
+### Personalized Assistants vs. AI Workspaces
 
 Both **personalized assistants** (like Custom GPTs or Gems) and **AI Workspaces** (structured workspaces such as OpenAI Projects, Claude Projects, Grok Projects, or Perplexity Spaces) extend the power of foundational models. They serve different but complementary purposes.
 
@@ -448,7 +448,7 @@ Both **personalized assistants** (like Custom GPTs or Gems) and **AI Workspaces*
 
 **Key Insight:** Assistants help you **execute tasks**, while Workspaces help you **organize work**. Together, they form the backbone of a GenAI-enabled workflow.
 
-### 6.6.4 Similar Resources Across Platforms
+### Similar Resources Across Platforms
 
 The idea of customizing and structuring generative AI is spreading across different ecosystems.
 Below is a **comparative table** (as of October 2025) of how major platforms implement features equivalent to **Personalzied Assistants** and **Projects**:
@@ -463,7 +463,7 @@ Below is a **comparative table** (as of October 2025) of how major platforms imp
 | **Microsoft Copilot**     | Copilot Agents                            | Copilot Pages is a similar feature                  | Enterprise workflows, sales/pitch preparation           |
 | **Meta LLaMA**            | No direct equivalent                      | No direct equivalent                                | Not applicable                                          |
 
-### 6.6.5 Connecting to Our Course
+### Connecting to Our Course
 
 - In **Prompt Engineering**, we explored generative AI as a tool for creativity and analysis.
 - With **Custom GPTs**, you learn how to **design your own AI-powered assistants**.
