@@ -48,7 +48,7 @@ Text:
 Prompt engineering is the practice of crafting effective inputs (prompts) to guide generative AI models like ChatGPT, Claude, or Gemini toward producing accurate, relevant, and useful outputs. It involves understanding how AI interprets language and strategically structuring prompts to achieve specific goals, whether it is summarizing text, generating code, analyzing data, or creating content. Good prompt engineering can significantly enhance the quality of AI responses, making it a critical skill for maximizing productivity and creativity with AI tools.
 ```
 
-## Exercise 1: Anatomy of a Prompt
+### Exercise 1: Anatomy of a Prompt
 
 Given the prompt below, identify its components:
 
@@ -217,7 +217,7 @@ Iteration helps you:
    
 ![Iterative Prompting](../Data/IterativePrompt.png)
 
-## Exercise 2: Prompt Iteration and Debugging Examples
+### Exercise 2: Prompt Iteration and Debugging Examples
 
 **Poor Prompt:**
 
@@ -237,7 +237,7 @@ Explain the stock market in simple terms for a high school student, using 3 key 
 Explain the stock market in simple terms for a high school student. Use 3 bullet points and include one analogy related to daily life.
 ```
 
-## Exercise 3: Prompt Experiment Classwork
+### Exercise 3: Prompt Experiment Classwork
 
 **Goal:** Learn how prompt structure changes the quality, depth, and usefulness of AI-generated insights. Use the file **FinancialSample.xlsx** (provided below). It contains sales data by product, country, segment, and month — perfect for analytical prompts.
 
@@ -346,7 +346,7 @@ This shows how reverse prompting can help:
 - **Learn effective prompt patterns** (e.g., phrasing requests around “three key steps” often yields structured, actionable advice).
 - **Apply to your projects** by practicing both sides: writing prompts and analyzing outputs to refine your own strategy.
 
-## Exercise 4: Reverse Prompting
+### Exercise 4: Reverse Prompting
 
 Below is an AI-generated output. Your task is to **work backwards** and write the possible prompt(s) that might have generated it, and then **use a reverse prompt method** to do the same and compare with your proposed prompts.
 
