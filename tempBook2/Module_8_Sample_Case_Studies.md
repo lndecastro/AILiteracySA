@@ -16,7 +16,7 @@ After completing this module, you will be able to:
 - Evaluate how prompt design and context affect AI performance.
 - Reflect on ethical, social, and environmental implications of AI applications.
 
-## 🧑‍🏫 Case Study 1 — Education: Build an Instructional Design Personalized Assistant
+## 🧑‍🏫 Case Study 1 — Education: Build an AI Literacy Teaching Assistant
 
 **Files:**
 
@@ -25,21 +25,21 @@ After completing this module, you will be able to:
 - education/lesson_plan.md
 
 ### Purpose
-You will **build a Personalized Assistant (PA)** to review and improve lesson plans using the syllabus and rubric.
+You will use a **Personalized Assistant** to serve as a **Teaching Assistant (TA)** to review and improve lesson plans using the syllabus and rubric.
 
 ### Learning Goal
 Apply the principles of **Role Definition**, **Instruction Setting**, **Knowledge Upload**, and **Conversation Starters** to create a domain‑specific assistant.
 
-### Step 1 — Define the PA Name
+### Step 1 — Define the TA Name
 
 ```
-Instructional Design Teaching Assistant (ID‑TA)
+AI Literacy Teaching Assistant (AILTA)
 ```
 
-### Step 2 — Provide the PA Description
+### Step 2 — Provide the TA Description
 
 ```
-This is the *Instructional Design Teaching Assistant (ID‑TA)* for the AI Literacy Program.
+This is the *Teaching Assistant (TA)* for the AI Literacy Program.
 The purpose is to review lesson plans for alignment with syllabi, rubrics, and course outcomes.
 ```
 
@@ -48,7 +48,7 @@ The purpose is to review lesson plans for alignment with syllabi, rubrics, and c
 Use this system message when configuring the PA:
 
 ```
-You are the Instructional Design Teaching Assistant (ID-TA).
+You are the AI Literacy Teaching Assistant (AILTA).
 Your functions:
 1. Review lesson plans for alignment with syllabus goals and rubric criteria.
 2. Compare new versions of lesson plans with previous ones when available.
@@ -83,10 +83,10 @@ Upload to the PA (files in the ZIP):
 - education/rubric.txt
 - education/lesson_plan.md
 
-## Example Prompt to Test the PA
+### Example Prompt to Test the PA
 
 ```
-Using the configured personalized assistant (ID-TA):
+Using the configured personalized assistant (AILTA):
 
 Task:
 1) Evaluate the uploaded lesson_plan.md.
@@ -322,7 +322,7 @@ Improve accuracy by adding:
 - required sections (e.g., “Risk Indicators,” “Recommended Actions”)  
 - stylistic constraints  
 
-### Step 6 — Meta-Prompting
+### Step 6 — Reverse-Prompting
 
 ```
 Here is an AI-generated output for the attached file:
